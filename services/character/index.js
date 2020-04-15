@@ -8,6 +8,5 @@ export function getCharacters(params = {}) {
     const name = `name=${params.searchText || ''}`;
 
     const url = `https://rickandmortyapi.com/api/character/?${species}&${gender}&${page}&${name}&${status}`;
-    console.log(url);
     return http.get(url);
 }

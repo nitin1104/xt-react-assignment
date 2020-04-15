@@ -6,9 +6,7 @@ export function setCharactersFiltersAction (characters) {
     };
 
     characters.forEach(character => {
-        console.log(" I am in ");
         if (data.species && data.species.indexOf(character.species) === -1) {
-            console.log(" I am in one more step")
             data.species = data.species.concat(character.species);
         }
 
@@ -20,7 +18,5 @@ export function setCharactersFiltersAction (characters) {
             data.status = data.status.concat(character.status);
         }
     });
-    console.log('DATA', data)
     return {type: 'SET_FILTERS', payload: data}
-    //this.props.dispatch({type: 'SET_FILTERS', payload: data})
 }
