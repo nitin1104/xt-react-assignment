@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styled, { ThemeProvider, injectGlobal } from 'styled-components';
-import Meta from './Meta';
+import Meta from './meta';
 
 const theme = {
     red: '#FF0000',
