@@ -8,6 +8,9 @@
     "build": "next build",
     "start": "next start"
   },
+  "engines": {
+    "node": "10.16.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nitin1104/my-toons.git"
