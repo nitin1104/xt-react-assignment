@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/nitin1104/my-toons#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "install": "^0.13.0",
     "moment": "^2.24.0",
     "next": "^9.3.4",
